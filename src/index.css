@@ -1,0 +1,39 @@
+/* Hoja de Estilos de mi Aplicacion */
+
+*{ /* Estilo para todo el documento */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{ /* Estilo para el body ( cuerpo ) de mi aplicacion */
+    padding: 60px;
+}
+
+input{ /* Estilo a los input ( Cajas de Texto ) */
+    color: gray;
+    font-size: 20px;
+    width: 100%;
+}
+
+.card-grid { /* Estilos para card-grid en el archivo de GifGrid */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card { /* Estilo para los contenedores de las imagenes */
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.card img { /* Tamaño de las imagenes */
+    max-height: 170px;
+}
+
+.card p { /* Estilo para el titulo de las imagenes */
+    padding: 5px;
+    text-align: center;
+}
